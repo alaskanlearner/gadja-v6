@@ -19,7 +19,7 @@ ENV PIP_ROOT_USER_ACTION=ignore
 
 # UPDATE PIP
 RUN pip install -U pip
-
+RUN pip install -U requests
 # INSTALL REQUIREMENTS
 RUN pip install -U \
                 --no-cache-dir \
